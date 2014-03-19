@@ -14,8 +14,8 @@ app = QtGui.QApplication(sys.argv)
 class SystemTrayIcon(QtGui.QSystemTrayIcon):
     ALREADY_ON = 0
     TRAY_TOOLTIP = 'Headphonestatus'
-    TRAY_ICON = 'icons/headphonestatus-inactive.png'
-    TRAY_ICON_ACTIVE = 'icons/headphonestatus-active.png'
+    TRAY_ICON = '/usr/share/pixmaps/headphonestatus-inactive.png'
+    TRAY_ICON_ACTIVE = '/usr/share/pixmaps/headphonestatus-active.png'
     turnOn = QtCore.pyqtSignal()
     turnOff = QtCore.pyqtSignal()
 

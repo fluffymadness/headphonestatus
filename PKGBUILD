@@ -3,13 +3,13 @@
 
 pkgname=headphonestatus-git
 _gitname=headphonestatus
-pkgver=0.1
+pkgver=a0764f2
 pkgrel=1
 pkgdesc="An Headphone Status Indicator, that shows if the headphones are plugged it"
 arch=('i686' 'x86_64')
 url="https://github.com/fluffymadness/headphonestatus"
 license=('GPLv2')
-depends=('python2' 'wxpython')
+depends=('python2' 'python2-pyqt4')
 makedepends=('git')
 # The git repo is detected by the 'git:' or 'git+' beginning. The branch
 # 'pacman41' is then checked out upon cloning, expediating versioning:
